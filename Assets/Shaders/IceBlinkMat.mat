@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_BasicVFXShader
+  m_Name: IceBlinkMat
   m_Shader: {fileID: -6465566751694194690, guid: 20877c9895637434aadf9f4ecff4419c,
     type: 3}
   m_Parent: {fileID: 0}
@@ -36,17 +36,12 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - DepthOnly
-  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 551ea25dedc74ac4090f7ccd86b86f78, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_181ca694d130411f8a0b07870999fcb1_Texture_1_Texture2D:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ae4172807dede5e4c89dab884c152e46, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,12 +58,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.949
+    - _Alpha: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
-    - _CastShadows: 0
-    - _Cull: 2
+    - _CastShadows: 1
+    - _Cull: 0
     - _DstBlend: 10
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -78,5 +73,5 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _MainColor: {r: 2.9960787, g: 1.0632243, b: 0.5803921, a: 1}
+    - _MainColor: {r: 1.9166701, g: 1.9230323, b: 2.3174946, a: 1}
   m_BuildTextureStacks: []
