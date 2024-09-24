@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2159390210766337830
+--- !u!114 &-412879281264377329
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,25 +20,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Flame
-  m_Shader: {fileID: -6465566751694194690, guid: 39c4010e248b16b48aff5752799bbff1,
+  m_Name: Fire
+  m_Shader: {fileID: -6465566751694194690, guid: 81c781a003faa534ba671f6888bb08b4,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_CustomRenderQueue: 3021
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _mainTex:
-        m_Texture: {fileID: 2800000, guid: beee1ee0e6ddd184dacd78fa5a5d8656, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bc86b6d64f5527c4190b0ae1eabb7807, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,11 +59,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveValue: 0.29
-    - _NoiseSpeed: 1
+    - _Alpha: 0.5
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 2
+    - _CastShadows: 0
+    - _Cull: 0
+    - _DstBlend: 1
     - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Scale: 100
-    - _speed: 0
-    m_Colors: []
+    - _QueueOffset: 21
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
