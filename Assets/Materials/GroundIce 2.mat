@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GroundIce
+  m_Name: GroundIce 2
   m_Shader: {fileID: -6465566751694194690, guid: b360c36de0e7cd3459a4c7a1d4e5f78c,
     type: 3}
   m_Parent: {fileID: 0}
